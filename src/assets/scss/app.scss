@@ -64,7 +64,7 @@
 @include motion-ui-animations;
 
 body {
-    background: #3a3a3a;
+    background: #bcbebe;
   }
 
 .grid-container {
@@ -77,6 +77,7 @@ body {
   background: $topbar-responsive-bg;
   padding: 1rem 1.5rem;
   margin-bottom: 20px;
+  margin-top: 20px;
 
   .topbar-responsive-logo {
     color: $white;
@@ -186,7 +187,7 @@ body {
 // Hero Section
 
 .marketing-site-hero {
-  background: url('https://images.pexels.com/photos/8264/pexels-photo.jpg?h=350&auto=compress&cs=tinysrgb') top right no-repeat;
+  background: url('/assets/img/consult.jpeg') top right no-repeat;
   height: $marketing-site-hero-height;
   background-size: cover;
   display: flex;
@@ -198,7 +199,11 @@ body {
 }
 
 .marketing-site-hero-content {
-  max-width: 1525px;
+  border-radius: 10px;
+  opacity: 80%;
+  color: #fff;
+  background: #3a3a3a;
+  max-width: 525px;
   margin: 0 auto;
   padding-left: 5%;
   padding-right: 5%;
@@ -207,15 +212,19 @@ body {
     font-size: 32px;
   }
 
+  .subheader {
+    color: #dadada;
+  }
+
   .button.round {
     border-radius: 5000px;
     text-transform: uppercase;
     font-size: 12px;
-    margin-bottom: 0;
+    //margin-bottom: 0;
   }
 
   @media screen and (min-width: 40em) {
-    padding-left: 50%;
+    //padding-left: 50%;
   }
 }
 
