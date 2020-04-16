@@ -64,7 +64,11 @@
 @include motion-ui-animations;
 
 body {
-    background: #fff;
+    background: #3a3a3a;
+  }
+
+.grid-container {
+  max-width: 100%;
 }
 
 // Top navagation
@@ -77,6 +81,9 @@ body {
   .topbar-responsive-logo {
     color: $white;
     vertical-align: middle;
+    font-family: 'EB Garamond', serif;
+    font-size: 28px;
+    //font-style: italic;
   }
 
   .menu {
@@ -191,7 +198,7 @@ body {
 }
 
 .marketing-site-hero-content {
-  max-width: $global-width;
+  max-width: 1525px;
   margin: 0 auto;
   padding-left: 5%;
   padding-right: 5%;
