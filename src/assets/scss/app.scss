@@ -82,8 +82,8 @@ body {
   .topbar-responsive-logo {
     color: $white;
     vertical-align: middle;
-    font-family: 'EB Garamond', serif;
-    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
     //font-style: italic;
   }
 
@@ -205,8 +205,9 @@ body {
   background: #3a3a3a;
   max-width: 625px;
   margin: 0 auto;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-top: 3px;
+  padding-left: 2%;
+  padding-right: 2%;
 
   h1 {
     font-size: 32px;
@@ -214,6 +215,7 @@ body {
 
   .subheader {
     color: #dadada;
+    font-weight: 700;
   }
 
   .button.round {
